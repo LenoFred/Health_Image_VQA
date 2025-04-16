@@ -39,9 +39,7 @@ This project develops an AI system to analyze medical images (X-rays, MRIs, derm
 ├── docs                     # Documentation, additional diagrams, flowcharts, and reports
 │   ├── system_architecture.png  # System architecture diagram
 │   └── data_flow.pdf        # Data flow diagram
-│
-├── README.md                # Detailed project overview and instructions
-└── requirements.txt         # List of all Python dependencies (generated via pip freeze)
+
 
 
 ## Setup Instructions
