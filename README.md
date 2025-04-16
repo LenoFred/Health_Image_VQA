@@ -20,6 +20,9 @@ This project develops an AI system to analyze medical images (X-rays, MRIs, derm
 │   ├── NIH_Chest_Xray/      # Directory for NIH chest X-ray images
 │   ├── ISIC/                # Directory for ISIC skin lesion images
 │   └── VQA_Datasets/        # Directory for VQA-RAD and PMC-VQA data
+
+
+
 │
 ├── models                   # Trained models, weights, and checkpoints
 │   ├── classification/
