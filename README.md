@@ -5,7 +5,7 @@ This project develops an AI system to analyze medical images (X-rays, MRIs, derm
 
 ## Objectives
 - **Classification:** Detect abnormalities using a lightweight CNN (e.g., MobileNetV2, DenseNet-121) with transfer learning.
-- **Segmentation:** Delineate abnormal regions using U-Net/UNet++ with modifications for CPU-efficient deployment.
+- **Segmentation:** highligh abnormal regions using U-Net/UNet++ with modifications for CPU-efficient deployment.
 - **Visual Q&A:** Enable interactive queries on the processed images using a transformer-based VQA module optimized for resource-limited environments.
 
 ## Datasets
@@ -14,7 +14,7 @@ This project develops an AI system to analyze medical images (X-rays, MRIs, derm
 - **VQA Datasets:** VQA-RAD and PMC-VQA (details provided in the documentation)
 
 ## File Structure
-/AI-DiseaseDetection-VQA
+/Health_Image_VQA
 │
 ├── datasets
 │   ├── NIH_Chest_Xray/      # Directory for NIH chest X-ray images
@@ -41,8 +41,7 @@ This project develops an AI system to analyze medical images (X-rays, MRIs, derm
 │   └── data_flow.pdf        # Data flow diagram
 │
 ├── README.md                # Detailed project overview and instructions
-├── requirements.txt         # List of all Python dependencies (generated via pip freeze)
-└── .gitignore               # Ignore file to exclude unnecessary files (e.g., __pycache__, *.pyc)
+└── requirements.txt         # List of all Python dependencies (generated via pip freeze)
 
 
 ## Setup Instructions
