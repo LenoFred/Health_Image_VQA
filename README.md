@@ -12,34 +12,6 @@ This project develops an AI system to analyze medical images (X-rays, MRIs, derm
 - **NIH Chest X-ray Dataset:** [Link to dataset]([https://nihcc.app.box.com/v/ChestXray-NIHCC/folder/37178474737])
 - **ISIC Skin Lesion Dataset:** [Link to dataset](https://www.isic-archive.com)
 - **VQA Datasets:** VQA-RAD: [Link to dataset]([https://osf.io/89kps]) and PMC-VQA: [Link to dataset]([https://huggingface.co/datasets/RadGenome/PMC-VQA])
-## File Structure
-
-/Health_Image_VQA
-│
-├── datasets
-│   ├── NIH_Chest_Xray/      # Directory for NIH chest X-ray images
-│   ├── ISIC/                # Directory for ISIC skin lesion images
-│   └── VQA_Datasets/        # Directory for VQA-RAD and PMC-VQA data
-│
-├── models                   # Trained models, weights, and checkpoints
-│   ├── classification/
-│   ├── segmentation/
-│   └── vqa/
-│
-├── src                      # Source code for the project
-│   ├── preprocessing.py     # Data preprocessing functions
-│   ├── train_classification.py   # Training script for classification
-│   ├── train_segmentation.py     # Training script for segmentation
-│   ├── vqa_module.py        # Code for building and running the VQA module
-│   ├── inference.py         # Inference pipeline integrating modules
-│   └── utils.py             # Utility functions (e.g., evaluation metrics)
-│
-├── notebooks                # Jupyter notebooks for experimentation and visualization
-│
-├── docs                     # Documentation, additional diagrams, flowcharts, and reports
-│   ├── system_architecture.png  # System architecture diagram
-│   └── data_flow.pdf        # Data flow diagram
-
 
 
 ## Setup Instructions
