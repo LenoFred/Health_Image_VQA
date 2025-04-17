@@ -9,9 +9,9 @@ This project develops an AI system to analyze medical images (X-rays, MRIs, derm
 - **Visual Q&A:** Enable interactive queries on the processed images using a transformer-based VQA module optimized for resource-limited environments.
 
 ## Datasets
-- **NIH Chest X-ray Dataset:** [Link to dataset]([https://nihcc.app.box.com/v/ChestXray-NIHCC/folder/37178474737])
+- **NIH Chest X-ray Dataset:** [Link to dataset](https://nihcc.app.box.com/v/ChestXray-NIHCC/folder/37178474737)
 - **ISIC Skin Lesion Dataset:** [Link to dataset](https://www.isic-archive.com)
-- **VQA Datasets:** VQA-RAD: [Link to dataset]([https://osf.io/89kps]) and PMC-VQA: [Link to dataset]([https://huggingface.co/datasets/RadGenome/PMC-VQA])
+- **VQA Datasets:** VQA-RAD: [Link to dataset](https://osf.io/89kps) and PMC-VQA: [Link to dataset](https://huggingface.co/datasets/RadGenome/PMC-VQA)
 
 
 ## Setup Instructions
