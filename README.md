@@ -1,10 +1,10 @@
 # 🚀 AI-Based Early Disease Detection with Visual Q&A for Healthcare Diagnostics
 
 ## 📌 Overview
-This project develops an AI system to analyze medical images (X-rays, MRIs, dermatoscopic images) for early disease detection. The system incorporates image classification, segmentation, and an interactive Visual Question Answering (VQA) module to enable clinicians to ask targeted questions about the images and receive interpretable responses.
+This project develops an AI system to analyze medical images (Chest X-rays) for disease detection. The system integrates image classification, segmentation, and an interactive Visual Question Answering (VQA) module to enable clinicians to ask targeted questions about the images and receive interpretable responses.
 
 ## 📌 Objectives
-- **Classification:** Detect abnormalities using a lightweight CNN (e.g., MobileNetV2, DenseNet-121) with transfer learning.
+- **Classification:** Detect abnormalities using a lightweight CNN with transfer learning.
 - **Segmentation:** highligh abnormal regions using U-Net/UNet++ with modifications for CPU-efficient deployment.
 - **Visual Q&A:** Enable interactive queries on the processed images using a transformer-based VQA module optimized for resource-limited environments.
 
