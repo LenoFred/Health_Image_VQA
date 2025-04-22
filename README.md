@@ -12,7 +12,9 @@ This project develops an AI system to analyze medical images (X-rays, MRIs, derm
 - **Chest X-ray Dataset:** https://drive.google.com/file/d/1-SWJ_nIgotQ11ZHapb-uqWndvzeRs80d/view?usp=sharing
 - **NIH Chest X-ray Dataset:** [Link to dataset](https://nihcc.app.box.com/v/ChestXray-NIHCC) 
 - **VQA Datasets:** VQA-RAD and PMC-VQA (details provided in the documentation)
-Download the required datasets and place them in the `datasets/` directory following the structure provided above.
+  
+Download the required datasets and place them in the `datasets/` directory following the structure provided above. 
+The dataset from the drive is preprocessed and augmented to improve model generalization.
 
 ## 🛠️ Technologies Used
 - **Python** 🐍
@@ -23,15 +25,13 @@ Download the required datasets and place them in the `datasets/` directory follo
 
   
 ## 📌 Features
-1. **Preprocessing:**  
-   Run `python src/preprocessing.py` to normalize, resize, and augment images.
-2. **Training Classification Model:**  
+1. **Training Classification Model:**  
    Run `python src/train_classification.py`.
-3. **Training Segmentation Model:**  
+2. **Training Segmentation Model:**  
    Run `python src/train_segmentation.py`.
-4. **VQA Module Execution:**  
+3. **VQA Module Execution:**  
    Run `python src/vqa_module.py` for processing natural language queries.
-5. **Integrated Inference:**  
+4. **Integrated Inference:**  
    Run `python src/inference.py` to execute the complete pipeline and generate outputs.
 
 ## Project Contribution
