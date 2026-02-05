@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🚀 AI-Based Early Disease Detection with Visual Q&A for Healthcare Diagnostics
 
 ## 📌 Overview
@@ -70,7 +69,6 @@ Download the required datasets and place them in the `datasets/` directory follo
 4. **VQA Module Execution:**  
    Run `python src/vqa_module.py` for processing natural language queries.
 5. **Integrated Inference:**  
->>>>>>> ad5f139518c9a2d45fe5f8f7ccaa781c0446b6c6
    Run `python src/inference.py` to execute the complete pipeline and generate outputs.
 
 ## Project Contribution
@@ -78,9 +76,7 @@ Download the required datasets and place them in the `datasets/` directory follo
 - Resource-efficient model architectures optimized for CPU-only environments.
 - Modular codebase for easy modifications and future improvements.
 
-<<<<<<< HEAD
 🔔 **If you found this project helpful, please ⭐ the repository!** ⭐
 =======
->>>>>>> ad5f139518c9a2d45fe5f8f7ccaa781c0446b6c6
 ## Contact
-For any queries or contributions, please contact Allen at allen.frederick@pau.edu.ng.
+For any queries or contributions, please contact Allen at frederickallen468@gmail.com.
