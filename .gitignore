@@ -1,1 +1,44 @@
+# Byte-compiled / cache / logs
+__pycache__/
+*.py[cod]
+*$py.class
 
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+
+# IDEs
+.vscode/
+.idea/
+
+# Distribution / build
+dist/
+build/
+*.egg-info/
+
+# Caches, models, large binaries
+cache/
+models/
+Code/datasets/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+*.webm
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage
+.coverage
+htmlcov/
+
+.qodo
